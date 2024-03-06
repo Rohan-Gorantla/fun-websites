@@ -12,9 +12,9 @@ document.querySelector("img").setAttribute("src", imageSource1);
 document.querySelectorAll("img")[1].setAttribute("src", imageSource2);
 
 if (randomNumber1 > randomNumber2) {
-  document.querySelector("h1").innerHTML = "RAHUL Wins!";
+  document.querySelector("h1").innerHTML = "RAHUL Wins";
 } else if (randomNumber1 < randomNumber2) {
-  document.querySelector("h1").innerHTML = "REENA Wins!";
+  document.querySelector("h1").innerHTML = "REENA Wins";
 } else {
   document.querySelector("h1").innerHTML = "It's a Draw!";
 }
